@@ -8,7 +8,7 @@ type CoreProp = {
  * Function Component: Mengembalikan elemen HTML
  * Props dipakai untuk menerima data dari parent.
  */
-function Core({ text }: CoreProp) {
+export default function Core({ text }: CoreProp) {
     /**
      * JSX: Nulis HTML di dalam JavaScript
      * Props bisa digunakan dalam JSX dengan {}
@@ -51,5 +51,3 @@ function Core({ text }: CoreProp) {
         </div>
     );
 }
-
-export { Core };

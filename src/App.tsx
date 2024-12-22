@@ -1,9 +1,9 @@
-import { Core } from "./materi/1_core/Core";
+import CoreExercise from "./materi/1_core/_exercise/CoreExercise";
 
 export default function App() {
   return (
     <>
-    <Core text="Farras"></Core>
+    <CoreExercise></CoreExercise>
     </>
   )
 }
